@@ -1,0 +1,8 @@
+<launch>
+  <!-- Launch the Robot Supervisor-->
+  <node pkg="robot_supervisor" type="main.py" name="robot_supervisor" output="screen">
+    <rosparam command="load" file="$(find robot_supervisor)/config/parameters.yaml"/>
+    <rosparam command="load" file="$(find robot_supervisor)/config/tasks_i2r.yaml"/>
+    <rosparam command="load" file="$(find robot_supervisor)/config/tasks_ros.yaml"/>
+  </node>
+</launch>

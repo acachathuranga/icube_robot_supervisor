@@ -1,0 +1,22 @@
+# I2R MQTT Broker address
+i2r_mqtt_broker_address: 192.168.5.128
+# Command Topic to I2R Server
+i2r_command_topic: robot_depart
+# Command Field to I2R Server
+i2r_command_field: command
+# Status Topic to I2R Server
+i2r_robot_status_topic: robot_status
+# Robot Status Field from I2R Server
+i2r_robot_status_field: status
+
+
+## Commands
+i2r_shutdown_command: shutdown
+i2r_disable_robot_command: disable
+i2r_enable_robot_command: enable
+i2r_self_test_command: self_test
+i2r_dock_command: dock
+
+## Status Messages
+i2r_robot_status_error: error
+i2r_robot_status_charging: charging

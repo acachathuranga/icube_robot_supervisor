@@ -1,0 +1,20 @@
+# Robot Teleop Topic
+robot_joystick_topic: /joy1/joy
+# Robot initial pose topic
+robot_initial_pose_topic: /initialpose
+# Robot Collision avoidance enable/disable service
+obstacle_safety_control_service: /collision_avoidance_guard/enable_avoidance
+# Docking Status topic
+robot_dock_topic: /dock_indoor_pub
+
+# Depth Camera Topics
+front_depth_cam_point_cloud_topic: /front_depth_cam/depth/image_rect_raw
+rear_depth_cam_point_cloud_topic:  /rear_depth_cam/depth/image_rect_raw
+
+# Initialization
+# Camera device names
+cameras: ['/dev/RearTopCamera', '/dev/TopCamera']
+# Camera Exposure Levels
+camera_exposures: [100 , 50]
+
+
